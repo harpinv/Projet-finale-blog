@@ -1,0 +1,194 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: beige;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    font-size: 30px;
+    border: 3px solid black;
+    background-color: white;
+}
+
+#titre {
+    background-color: lightgray;
+    text-align: center;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#presentation {
+    text-align: justify;
+    font-size: 30px;
+    padding: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.para {
+    margin: 80px 40px;
+}
+
+.lien {
+    text-decoration-line: none;
+    color: black;
+}
+
+.lien:hover {
+    color: lightgray;
+}
+
+#article {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 30px;
+}
+
+.bloc {
+    width: 500px;
+    border-radius: 20px;
+    background-color: lightskyblue;
+    padding: 40px;
+    margin: 20px;
+}
+
+.numero {
+    display: none;
+}
+
+.lire {
+    text-align: center;
+}
+
+.changer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bouton {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: bisque;
+    margin: 30px;
+}
+
+.bouton:hover {
+    background-color: burlywood;
+}
+
+.texte {
+    font-size: 30px;
+    text-align: center;
+}
+
+.message {
+    border: 3px solid black;
+    background-color: white;
+    width: 650px;
+    font-size: 30px;
+    margin: 30px auto;
+}
+
+.commentaire {
+    text-align: center;
+}
+
+.nouveau {
+    background-color: lightskyblue;
+    border-radius: 20px;
+    margin: 200px auto;
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+}
+
+.critere {
+    margin: 20px;
+}
+
+.infos {
+    width: 250px;
+    font-size: 25px;
+}
+
+#erreur {
+    font-size: 30px;
+}
+
+.bande {
+    width: 50px;
+    height: 4px;
+    background-color: black;
+    margin: 10px;
+}
+
+#menu {
+    margin-top: 20px;
+    display: none;
+    width: 60px;
+    text-align: center;
+}
+
+#liste {
+    position: fixed;
+    width: 250px;
+    left: -256px;
+    z-index: 5;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: white;
+    border: 3px solid black;
+}
+
+#ferme {
+    left: 105px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.scripte {
+    margin: 20px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 700px) {
+
+    .normal {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .bloc, .nouveau, .message {
+        width: 350px;
+    }
+
+    #presentation, #article, .texte, .message, #erreur {
+        font-size: 25px;
+    }
+}

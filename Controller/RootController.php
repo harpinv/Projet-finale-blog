@@ -5,7 +5,7 @@ namespace App\Controller;
 class RootController extends AbstractController
 {
     /**
-     * Render la home page.
+     * Render the home page.
      * @return void
      */
     public function index()

@@ -112,7 +112,7 @@ class articleController extends AbstractController
         }
     }
 
-    //Permet de controler les données modifier avant enregistrement dans la table article.
+    //Allows you to control the modified data before saving to the article table.
     public function modifie()
     {
         //We check that the data exists.
